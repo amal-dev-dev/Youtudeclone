@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="yt-navbar p-2 sticky-top bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <button id="sidebarBtn1" class="btn round-btn"> <i class='bxr  bx-menu-wider'  ></i> </button>
+                    <img src="css/images/Screenshot 2025-07-07 225908.png" class="logo" alt="youtude">
+                </div>
+                <div class="col-md-6">
+                    <div class="yt-search-bar d-flex">
+                         <div class="input-group">
+                            <input type="search" class="form-control" placeholder="Search">
+                            <button class="input-group-text" id="basic-addon2"><i class="bx bx-search"></i></button>
+                        </div>
+                        <button class="btn round-btn ms-2"><i class='bx  bxs-microphone mt-1' ></i> </button>
+                     </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="text-end">
+                        <button class="btn round-btn-2" id="create"><i class="bx bx-plus"></i> Create</button>
+                        <button class="btn round-btn ms-2"><i class='bx  bxs-bell mt-1' ></i> </button>
+                        <button class="btn round-btn ms-2" id="profile"><i class='bx  bxs-user mt-1' ></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    
+    <div class="yt-main-area">
+        <div id="mySidebar" class="yt-sidebar overflow-sidebar mt-2">
+
+            <ul>
+                <li><a href="" class="active"><i class="bx bx-home"></i><span>Home</span></a></li>
+                <li><a href=""><i class="bxr  bx-store-alt"></i><span>Shorts</span></a></li>
+                <li><a href=""><i class="bx bx-play"></i><span>Subscriptions</span></a></li>
+                <li><hr></li>
+
+ 
+                <li><a href=""> You <i class="bx bx-chevron-right"></i></a></li>
+                <li><a href=""><i class="bxr  bx-history"></i><span>History</span></a></li>
+                <li><a href=""><i class="bxr  bx-list-play"></i><span>Playlists</span></a></li>
+                <li><a href=""><i class="bx bx-video"></i><span>Your Video</span></a></li>
+                <li><a href=""><i class="bxr  bx-clock-5"></i><span>Watch Later</span></a></li>
+                <li><a href=""><i class="bx bx-like"></i><span>Liked Videos</span></a></li>
+                <li><a href=""><i class="bx bx-cut"></i><span>Your Clips</span></a></li>
+                <li><hr></li>
+
+                <li><a href="" class="fw-bold"> Subscriptions </a></li>
+                <li><a href=""><i class="bxr  bx  bxs-user"></i><span>Brototype Malayalam</span></a></li>
+                <li><a href=""><i class="bxr  bx  bxs-user"></i><span>Coding Guru</span></a></li>
+                <li><a href=""><i class="bxr  bx  bxs-user"></i><span>Tech Tech</span></a></li>
+                <li><a href=""><i class="bxr  bx  bxs-user"></i><span>MediaTech</span></a></li>
+                <li><a href=""><i class="bxr  bx  bxs-user"></i><span>Code Coders</span></a></li>
+                <li><a href=""><i class="bxr  bx  bxs-user"></i><span>MediaTech</span></a></li>
+                <li><a href=""><i class="bxr  bx  bxs-user"></i><span>Code Coders</span></a></li>
+            </ul>
+        </div>
+        <div id="myContentArea" class="yt-content">
+            <div class="p-3">
+
+                <div class="yt-badge-area mb-4">
+                    <a href="">All</a>
+                    <a href="">Music</a>
+                    <a href="">Mix</a>
+                    <a href="">Recent Plays</a>
+                    <a href="">Live</a>
+                    <a href="">Marvel</a>
+                    <a href="">Studios</a>
+                    <a href="">Grapics Desiging</a>
+                    <a href="">Malayalam Cinema</a>
+                    <a href="">Ai</a>
+                    <a href="">Prodcasts</a>
+                    <a href="">SuperHeros Movies</a>
+                    <a href="">Comedy</a>
+                    <a href="">Watched</a>
+                    <a href="">Web Development</a>
+                    <a href="">Music Mix</a>
+
+                </div>
+              
+                <div class="yt-videos-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a href="video-view.html">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="yt-video-card">
+                                    <iframe class="w-100" height="210" src="https://www.youtube.com/embed/1aojy1pS_f8?si=V7wSmuZhpGHkFg5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <div class="d-flex mt-2">
+                                        <div>
+                                            <button class="btn round-btn"><i class="bx bx-user"></i></button>
+                                        </div>
+                                        <div class="ms-3">
+                                            <h5 class="video-title">Making of Minnal Murali | Tovino Thomas,Basil Joseph,Sophia Paul | Netflix India</h5>
+                                             <p class="video-tag">TopMovieClips area</p>
+                                             <label>1.8M views</label> - <label>3 years ago</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div> 
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+
+<script>
+    $(document).ready(function() {
+
+        var sidebarStatus = true;
+        $('#sidebarBtn1').click(function (e) {
+            e.preventDefault();
+            
+            if(sidebarStatus){
+                $('#mySidebar').addClass('yt-sidebar-mini');
+                $('#myContentArea').addClass('yt-sidebar-collapsed');
+            }else{
+                $('#mySidebar').removeClass('yt-sidebar-mini');
+                $('#myContentArea').removeClass('yt-sidebar-collapsed');
+            }
+
+            sidebarStatus = !sidebarStatus;
+           
+        });
+    });
+</script>
+</body>
+</html>
